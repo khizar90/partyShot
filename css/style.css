@@ -1,0 +1,71 @@
+
+@font-face {
+    src: url(../font/Poppins-Medium.otf);
+    font-family: medium;
+
+}
+
+body {
+    background-image: url('../images/bg_cover.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .col-md-6 .row .col-md-12 .logoimage{
+    width: 40%;
+    margin: auto;
+}
+.container .col-md-6 .row .col-md-12 .logoimage img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+}
+.container .col-md-6 .dis{
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-family: medium;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-weight: 500;
+
+
+}
+.container .col-md-6 .social {
+    width: 35%;
+    margin: auto;
+}
+.container .col-md-6 .social img{
+    width: 100%;
+    margin-left: 5%;
+}
+.container .col-md-6 .image img{
+    width: 100%;
+}
+
+
+@media (max-width: 991px)  and (min-width:768px){
+    .container .col-md-6 .dis{
+       font-size: 14px;
+    }
+    .container .col-md-6 .social {
+        width: 35%;
+    }
+    .container .col-md-6 .row .col-md-9 img{
+        margin-top: 15%;
+    }
+}
+@media (max-width: 767px){
+    body{
+        height: auto;
+    }
+    .container .col-md-6 .social {
+        width: 30%;
+    }
+    
+}
